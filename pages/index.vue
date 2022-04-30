@@ -81,9 +81,9 @@
   })
 
   const responses = ref<Record<string, any>[]>([])
-
   const deputy = ref<Record<string, any> | null>(null)
   const circonscription = ref<Record<string, any> | null>(null)
+  const error = ref<string | null>(null)
 
   async function onSubmit() {
     const res = await $fetch('/api/geocoding', { method: 'post', body: form })
@@ -95,7 +95,7 @@
   }
 
   async function onAddressSelected(index: number) {
-    const addressPoint = Object.values(responses.value[index].bounds.northeast)
+    const addressPoint = Object.values(responses.value[index].geometry)
     const payload = { coords: addressPoint }
     const { circonscription: circo, deputy: { depute } } = await $fetch('/api/circo', { method: 'post', body: payload})
     circonscription.value = circo
