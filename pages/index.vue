@@ -108,6 +108,9 @@
     error.value = null
     try {
       const res = await $fetch('/api/geocoding', { method: 'post', body: form })
+      if (res.results.length === 0) {
+        throw new Error('No address found')
+      }
       responses.value = res.results
       // If we only have one address matching, fetch the circo for this address immediately
       if (res.results.length === 1) {
