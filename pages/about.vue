@@ -1,7 +1,7 @@
 <template>
 <div class="flex flex-col space-y-5 items-center">
   <div class="flex flex-col ite space-y-6 rounded p-8 bg-white md:w-8/12 text-gray-800">
-    <p>Aucune donnée personnelle n'est conservée, ce site n'utilise votre adresse que pour la faire parvenir à un service que geocoding en sources ouvertes et en déduire votre circonscription.</p>
+    <p>Aucune donnée personnelle n'est conservée, ce site n'utilise votre adresse que pour la faire parvenir à un service de geocoding en sources ouvertes et en déduire votre circonscription.</p>
     <p>
       Services de Geocoding fournis par
       <a class="underline text-indigo-700" href="https://opencagedata.com/about" target="_blank">OpenCage</a>
