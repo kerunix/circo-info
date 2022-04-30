@@ -7,7 +7,19 @@
       @submit.prevent="onSubmit"
     >
       <label for="address" class="text-center text-xl font-semibold">Votre adresse</label>
-      <p class="text-gray-800">Soyez le-la plus précis-e possible dans la saisie de votre adresse pour faciliter la recherche de votre député-e.</p>
+      <div class="rounded-md bg-yellow-50 p-4">
+        <div class="flex">
+          <div class="flex-shrink-0">
+            <ExclamationIcon class="h-5 w-5 text-yellow-400" aria-hidden="true" />
+          </div>
+          <div class="ml-3">
+            <h3 class="text-sm font-medium text-yellow-800">Attention</h3>
+            <div class="mt-2 text-sm text-yellow-700">
+              <p>Soyez le-la plus précis-e possible dans la saisie de votre adresse pour faciliter la recherche de votre député-e. Privilégiez une adresse complète plutôt qu'un simple nom de ville. Certaines villes sont composées de plusieurs circonscriptions et ont donc plusieurs député-es.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="flex items-center">
         <input
           type="text"
@@ -40,9 +52,9 @@
     </template>
   </div>
   <div class="flex flex-col space-y-6 rounded p-8 bg-white w-full md:w-8/12 text-gray-800">
+    <h2 class="text-center text-xl font-semibold">Votre député-e</h2>
     <ErrorMessage v-if="error?.type === 'circo'" :title="error.title">{{ error.message }}</ErrorMessage>
-    <template v-else>
-      <h2 class="text-center text-xl font-semibold">Votre député-e</h2>
+    <template v-else-if="deputy">
       <div class="mt-5 border-t border-gray-200">
         <dl class="sm:divide-y sm:divide-gray-200">
           <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
@@ -82,6 +94,7 @@
 </template>
 
 <script setup lang="ts">
+  import { ExclamationIcon } from '@heroicons/vue/solid'
   const form = reactive({
     address: ''
   })
