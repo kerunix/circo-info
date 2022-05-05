@@ -14,7 +14,12 @@
           </div>
           <div class="ml-3">
             <h3 class="text-sm font-medium text-yellow-800">Attention</h3>
-            <div class="mt-2 text-sm text-yellow-700">
+            <div class="mt-2 text-sm text-yellow-700 space-y-3">
+              <p class="font-medium">
+                Si vous avez la moindre inquiétude quand à l'usage qui serait fait de votre adresse, n'hésitez pas à consulter
+                <NuxtLink to="/about" class="underline">cette page</NuxtLink>
+                .
+              </p>
               <p>Soyez le-la plus précis-e possible dans la saisie de votre adresse pour faciliter la recherche de votre député-e. Privilégiez une adresse complète plutôt qu'un simple nom de ville. Certaines villes sont composées de plusieurs circonscriptions et ont donc plusieurs député-es.</p>
             </div>
           </div>
