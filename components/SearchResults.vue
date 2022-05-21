@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:w-8/12">
+  <div class="w-full grid grid-cols-1 gap-4 md:grid-cols-2 md:w-8/12">
     <ErrorMessage
       v-if="error?.type === 'circo'"
       :title="error.title"
