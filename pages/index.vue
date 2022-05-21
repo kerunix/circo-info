@@ -7,7 +7,7 @@
       @submit.prevent="onSubmit"
     >
       <label for="address" class="text-center text-xl font-semibold">Votre adresse</label>
-      <div class="rounded-md bg-yellow-50 p-4">
+      <div class="rounded-md bg-yellow-50 border border-yellow-500 p-4">
         <div class="flex">
           <div class="flex-shrink-0">
             <ExclamationIcon class="h-5 w-5 text-yellow-400" aria-hidden="true" />
@@ -35,7 +35,7 @@
         >
         <button
           type="submit"
-          :disabled="form.address.length === 0"
+          :disabled="!form.address"
           class="text-center flex-grow-0 h-10 px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-r-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-indigo-400"
         >
           Rechercher
@@ -43,8 +43,7 @@
       </div>
       <div v-else class="flex items-center justify-center">
         <button
-          :disabled="form.address.length === 0"
-          class="text-center flex-grow-0 h-10 px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-indigo-400"
+          class="text-center flex-grow-0 h-10 px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           @click="onReset"
         >
           Effectuer une autre recherche
@@ -56,17 +55,21 @@
     <ErrorMessage v-if="error?.type === 'geocoding'" :title="error.title">{{ error.message }}</ErrorMessage>
     <template v-else>
       <p class="text-center text-xl font-semibold">Veuillez affiner votre recherche en sélectionnant l'une des adresses ci dessous.</p>
-      <button
+      <div
         v-for="(address, index) in responses"
         :key="index"
-        class="rounded bg-indigo-100 px-3 py-2 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        @click="onAddressSelected(index)"
+        class="flex items-center justify-center"
       >
-      {{ address.formatted }}
-      </button>
+        <button
+          class="rounded bg-indigo-100 px-3 py-2 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          @click="onAddressSelected(index)"
+        >
+        {{ address.formatted }}
+        </button>
+      </div>
     </template>
   </div>
-  <SearchResults v-if="hasResults" :deputy="deputy" :error="error" :circonscription="circonscription"/>
+  <SearchResults v-if="hasResults || error?.type === 'circo'" :deputy="deputy" :error="error" :circonscription="circonscription"/>
 </div>
 </template>
 
@@ -74,7 +77,7 @@
   import { ExclamationIcon } from '@heroicons/vue/solid'
 
   const form = reactive({
-    address: ''
+    address: null
   })
 
   const responses = ref<Record<string, any>[]>([])
@@ -100,7 +103,7 @@
       error.value = {
         title: 'Nous n\'avons pas réussi à localiser cette adresse.',
         message: 'Veuillez vous assurer d\'avoir renseigné une adresse valide. Il est aussi possible que le service que nous utilisons pour localiser votre adresse soit inaccessible ou que nous ayons atteint notre quota quotidien d\'utilisations de ce service, veuillez réessayer demain.',
-        type: 'circo'
+        type: 'geocoding'
       }      
     } finally {
       hasSearched.value = true
@@ -132,5 +135,6 @@
     error.value = null
     hasResults.value = false
     hasSearched.value = false
+    form.address = null
   }
 </script>
