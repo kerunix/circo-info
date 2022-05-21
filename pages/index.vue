@@ -1,7 +1,7 @@
 <template>
 <div class="flex flex-col space-y-5 items-center">
   <div class="flex flex-col space-y-8 rounded p-8 text-gray-800 bg-white md:w-8/12">
-    <p>Ce site vous permet de renseigner une adresse et de récupérer en retour des informations concernant votre député-e et votre circonscription. A l'approche des législatives 2022 (quand les données finales seront disponibles sur les plateformes du gouvernement) il sera mis à jour pour vous permettre de retrouver également les différentes listes candidates dans votre circonscription.</p>
+    <p>Ce site vous permet de renseigner une adresse et de récupérer en retour des informations concernant votre député-e et votre circonscription. A l'approche des législatives 2022 (quand les données finales seront disponibles sur les plateformes du gouvernement) il sera mis à jour pour vous permettre de retrouver également les différent-es candidat-es dans votre circonscription.</p>
     <form
       class="flex flex-col space-y-6"
       @submit.prevent="onSubmit"
@@ -13,8 +13,8 @@
             <ExclamationIcon class="h-5 w-5 text-yellow-400" aria-hidden="true" />
           </div>
           <div class="ml-3">
-            <h3 class="text-sm font-bold text-yellow-800">Attention</h3>
-            <div class="font-medium mt-2 text-sm text-yellow-700 space-y-3">
+            <h3 class="text-sm font-bold text-yellow-900">Attention</h3>
+            <div class="font-medium mt-2 text-sm text-yellow-800 space-y-3">
               <p>Soyez le-la plus précis-e possible dans la saisie de votre adresse pour faciliter la recherche de votre député-e. Privilégiez une adresse complète plutôt qu'un simple nom de ville. Certaines villes sont composées de plusieurs circonscriptions et ont donc plusieurs député-es.</p>
               <p class="font-normal">
                 Aucune donnée personnelle n'est conservée par ce site. Pour plus d'informations, consultez la page 
@@ -35,7 +35,8 @@
         >
         <button
           type="submit"
-          class="text-center flex-grow-0 h-10 px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-r-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          :disabled="form.address.length === 0"
+          class="text-center flex-grow-0 h-10 px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-r-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-indigo-400"
         >
           Rechercher
         </button>
@@ -56,50 +57,13 @@
       </button>
     </template>
   </div>
-  <div class="flex flex-col space-y-6 rounded p-8 bg-white w-full md:w-8/12 text-gray-800">
-    <h2 class="text-center text-xl font-semibold">Votre député-e</h2>
-    <ErrorMessage v-if="error?.type === 'circo'" :title="error.title">{{ error.message }}</ErrorMessage>
-    <template v-else-if="deputy">
-      <div class="mt-5 border-t border-gray-200">
-        <dl class="sm:divide-y sm:divide-gray-200">
-          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-            <dt class="text-sm font-medium text-gray-500">Nom</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ deputy.nom }}</dd>
-          </div>
-          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-            <dt class="text-sm font-medium text-gray-500">Parti</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ deputy.parti_ratt_financier }}</dd>
-          </div>
-          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-            <dt class="text-sm font-medium text-gray-500">Groupe</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ deputy.groupe_sigle }}</dd>
-          </div>
-          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-            <dt class="text-sm font-medium text-gray-500">Email</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ deputy.emails[0].email }}</dd>
-          </div>
-          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-            <dt class="text-sm font-medium text-gray-500">Profession</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ deputy.profession }}</dd>
-          </div>
-          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
-            <dt class="text-sm font-medium text-gray-500">Liens</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-              <div class="flex justify-start space-x-7">
-                <a class="underline" :href="deputy.url_an" target="_blank">Assemblée Nationale</a>
-                <a class="underline" :href="deputy.url_nosdeputes" target="_blank">Nos députés</a>
-              </div>
-            </dd>
-          </div>
-        </dl>
-      </div>
-    </template>
-  </div>
+  <SearchResults v-if="hasResults" :deputy="deputy" :error="error" :circonscription="circonscription"/>
 </div>
 </template>
 
 <script setup lang="ts">
   import { ExclamationIcon } from '@heroicons/vue/solid'
+
   const form = reactive({
     address: ''
   })
@@ -108,6 +72,7 @@
   const deputy = ref<Record<string, any> | null>(null)
   const circonscription = ref<Record<string, any> | null>(null)
   const error = ref<{ title: string, message: string, type: 'geocoding' | 'circo' } | null>(null)
+  const hasResults = ref(false)
 
   async function onSubmit() {
     error.value = null
@@ -138,9 +103,10 @@
       const { circonscription: circo, deputy: { depute } } = await $fetch('/api/circo', { method: 'post', body: payload})
       circonscription.value = circo
       deputy.value = depute
+      hasResults.value = true
     } catch (err) {
       error.value = {
-        title: 'Nous n\'avons pas trouvé votre député-e.',
+        title: 'Nous n\'avons pas trouvé d\'information concernant votre circonscription ou votre député-e.',
         message: 'Cela peut être dû au fait que nos données sont incomplètes ou expirées.',
         type: 'circo'
       }
