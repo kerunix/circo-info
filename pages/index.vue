@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <div class="flex items-center">
+      <div v-if="!hasSearched" class="flex items-center">
         <input
           type="text"
           name="address"
@@ -39,6 +39,15 @@
           class="text-center flex-grow-0 h-10 px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-r-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-indigo-400"
         >
           Rechercher
+        </button>
+      </div>
+      <div v-else class="flex items-center justify-center">
+        <button
+          :disabled="form.address.length === 0"
+          class="text-center flex-grow-0 h-10 px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-indigo-400"
+          @click="onReset"
+        >
+          Effectuer une autre recherche
         </button>
       </div>
     </form>
@@ -73,6 +82,7 @@
   const circonscription = ref<Record<string, any> | null>(null)
   const error = ref<{ title: string, message: string, type: 'geocoding' | 'circo' } | null>(null)
   const hasResults = ref(false)
+  const hasSearched = ref(false)
 
   async function onSubmit() {
     error.value = null
@@ -92,6 +102,8 @@
         message: 'Veuillez vous assurer d\'avoir renseigné une adresse valide. Il est aussi possible que le service que nous utilisons pour localiser votre adresse soit inaccessible ou que nous ayons atteint notre quota quotidien d\'utilisations de ce service, veuillez réessayer demain.',
         type: 'circo'
       }      
+    } finally {
+      hasSearched.value = true
     }
   }
 
@@ -111,5 +123,14 @@
         type: 'circo'
       }
     }
+  }
+
+  function onReset() {
+    responses.value = []
+    deputy.value = null
+    circonscription.value = null
+    error.value = null
+    hasResults.value = false
+    hasSearched.value = false
   }
 </script>
