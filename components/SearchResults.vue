@@ -39,6 +39,7 @@
             </dl>
           </div>
         </template>
+        <ErrorMessage v-else title="Nous n'avons pas trouvé votre député-e actuel-le">Il est possible que notre jeu de données soit incomplet.</ErrorMessage>
       </div>
       <div class="flex flex-col space-y-6 rounded p-8 bg-white text-gray-800">
         <h2 class="text-center text-xl font-semibold">Les candidat-es de votre circonscription</h2>
@@ -71,7 +72,7 @@
 interface IProps {
   deputy: Record<string, any> | null,
   circonscription: Record<string, any> | null
-  candidates: Record<string, any> | null
+  candidates: Record<string, any>[] | null
   error?: { title: string, message: string, type: 'geocoding' | 'circo' } | null
 }
 

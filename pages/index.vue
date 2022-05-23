@@ -117,12 +117,13 @@ import { ExclamationIcon } from '@heroicons/vue/solid'
     try {
       const addressPoint = Object.values(responses.value[index].geometry)
       const payload = { coords: addressPoint }
-      const { circonscription: circo, deputy: { depute }, candidates: casting } = await $fetch('/api/circo', { method: 'post', body: payload})
+      const { circonscription: circo, deputy: depute, candidates: casting } = await $fetch('/api/circo', { method: 'post', body: payload})
       circonscription.value = circo
       deputy.value = depute
       candidates.value = casting
       hasResults.value = true
     } catch (err) {
+      console.log(err)
       error.value = {
         title: 'Nous n\'avons pas trouvé d\'information concernant votre circonscription ou votre député-e.',
         message: 'Cela peut être dû au fait que nos données sont incomplètes ou expirées.',
