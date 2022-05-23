@@ -92,8 +92,8 @@
       "properties": {
         "ID": "38001",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -703,7 +703,7 @@
         "ID": "01001",
         "code_dpt": "01",
         "nom_dpt": "AIN",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -897,7 +897,7 @@
         "ID": "01002",
         "code_dpt": "01",
         "nom_dpt": "AIN",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -1039,7 +1039,7 @@
         "ID": "01003",
         "code_dpt": "01",
         "nom_dpt": "AIN",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -1253,7 +1253,7 @@
         "ID": "01004",
         "code_dpt": "01",
         "nom_dpt": "AIN",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "4",
         "code_reg": "84"
       },
@@ -1427,7 +1427,7 @@
         "ID": "01005",
         "code_dpt": "01",
         "nom_dpt": "AIN",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "5",
         "code_reg": "84"
       },
@@ -2651,7 +2651,7 @@
         "ID": "03001",
         "code_dpt": "03",
         "nom_dpt": "ALLIER",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -2925,7 +2925,7 @@
         "ID": "03002",
         "code_dpt": "03",
         "nom_dpt": "ALLIER",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -3183,7 +3183,7 @@
         "ID": "03003",
         "code_dpt": "03",
         "nom_dpt": "ALLIER",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -3401,7 +3401,7 @@
         "ID": "04001",
         "code_dpt": "04",
         "nom_dpt": "ALPES-DE-HAUTE-PROVENCE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "1",
         "code_reg": "93"
       },
@@ -3691,7 +3691,7 @@
         "ID": "04002",
         "code_dpt": "04",
         "nom_dpt": "ALPES-DE-HAUTE-PROVENCE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "2",
         "code_reg": "93"
       },
@@ -4057,7 +4057,7 @@
         "ID": "05001",
         "code_dpt": "05",
         "nom_dpt": "HAUTES-ALPES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "1",
         "code_reg": "93"
       },
@@ -4259,7 +4259,7 @@
         "ID": "05002",
         "code_dpt": "05",
         "nom_dpt": "HAUTES-ALPES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "2",
         "code_reg": "93"
       },
@@ -4553,7 +4553,7 @@
         "ID": "06002",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "2",
         "code_reg": "93"
       },
@@ -4815,7 +4815,7 @@
         "ID": "06004",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "4",
         "code_reg": "93"
       },
@@ -4961,7 +4961,7 @@
         "ID": "06005",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "5",
         "code_reg": "93"
       },
@@ -5191,7 +5191,7 @@
         "ID": "06006",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "6",
         "code_reg": "93"
       },
@@ -5245,7 +5245,7 @@
         "ID": "06007",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "7",
         "code_reg": "93"
       },
@@ -5330,8 +5330,8 @@
       "properties": {
         "ID": "07001",
         "code_dpt": "07",
-        "nom_dpt": "ARDECHE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ARDÈCHE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -5560,8 +5560,8 @@
       "properties": {
         "ID": "07002",
         "code_dpt": "07",
-        "nom_dpt": "ARDECHE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ARDÈCHE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -5726,8 +5726,8 @@
       "properties": {
         "ID": "07003",
         "code_dpt": "07",
-        "nom_dpt": "ARDECHE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ARDÈCHE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -6562,8 +6562,8 @@
       "properties": {
         "ID": "09001",
         "code_dpt": "09",
-        "nom_dpt": "ARIEGE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "ARIÈGE",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -6860,8 +6860,8 @@
       "properties": {
         "ID": "09002",
         "code_dpt": "09",
-        "nom_dpt": "ARIEGE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "ARIÈGE",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -7599,7 +7599,7 @@
         "ID": "11001",
         "code_dpt": "11",
         "nom_dpt": "AUDE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -7841,7 +7841,7 @@
         "ID": "11002",
         "code_dpt": "11",
         "nom_dpt": "AUDE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -7967,7 +7967,7 @@
         "ID": "11003",
         "code_dpt": "11",
         "nom_dpt": "AUDE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "3",
         "code_reg": "76"
       },
@@ -8285,7 +8285,7 @@
         "ID": "12001",
         "code_dpt": "12",
         "nom_dpt": "AVEYRON",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -8503,7 +8503,7 @@
         "ID": "12002",
         "code_dpt": "12",
         "nom_dpt": "AVEYRON",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -8729,7 +8729,7 @@
         "ID": "12003",
         "code_dpt": "12",
         "nom_dpt": "AVEYRON",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "3",
         "code_reg": "76"
       },
@@ -9042,8 +9042,8 @@
       "properties": {
         "ID": "13008",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "8",
         "code_reg": "93"
       },
@@ -9148,8 +9148,8 @@
       "properties": {
         "ID": "13009",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "9",
         "code_reg": "93"
       },
@@ -9230,8 +9230,8 @@
       "properties": {
         "ID": "13010",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "10",
         "code_reg": "93"
       },
@@ -9324,8 +9324,8 @@
       "properties": {
         "ID": "13011",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "11",
         "code_reg": "93"
       },
@@ -9434,8 +9434,8 @@
       "properties": {
         "ID": "13012",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "12",
         "code_reg": "93"
       },
@@ -9504,8 +9504,8 @@
       "properties": {
         "ID": "13013",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "13",
         "code_reg": "93"
       },
@@ -9630,8 +9630,8 @@
       "properties": {
         "ID": "13014",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "14",
         "code_reg": "93"
       },
@@ -9776,8 +9776,8 @@
       "properties": {
         "ID": "13015",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "15",
         "code_reg": "93"
       },
@@ -9914,8 +9914,8 @@
       "properties": {
         "ID": "13016",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "16",
         "code_reg": "93"
       },
@@ -11037,7 +11037,7 @@
         "ID": "15001",
         "code_dpt": "15",
         "nom_dpt": "CANTAL",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -11231,7 +11231,7 @@
         "ID": "15002",
         "code_dpt": "15",
         "nom_dpt": "CANTAL",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -13834,7 +13834,7 @@
       "properties": {
         "ID": "19001",
         "code_dpt": "19",
-        "nom_dpt": "CORREZE",
+        "nom_dpt": "CORRÈZE",
         "nom_reg": "AQUITAINE-LIMOUSIN-POITOU-CHARENTES",
         "num_circ": "1",
         "code_reg": "75"
@@ -14120,7 +14120,7 @@
       "properties": {
         "ID": "19002",
         "code_dpt": "19",
-        "nom_dpt": "CORREZE",
+        "nom_dpt": "CORRÈZE",
         "nom_reg": "AQUITAINE-LIMOUSIN-POITOU-CHARENTES",
         "num_circ": "2",
         "code_reg": "75"
@@ -14390,7 +14390,7 @@
       "properties": {
         "ID": "21002",
         "code_dpt": "21",
-        "nom_dpt": "COTE-D'OR",
+        "nom_dpt": "CÔTE-D'OR",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "2",
         "code_reg": "27"
@@ -14564,7 +14564,7 @@
       "properties": {
         "ID": "21004",
         "code_dpt": "21",
-        "nom_dpt": "COTE-D'OR",
+        "nom_dpt": "CÔTE-D'OR",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "4",
         "code_reg": "27"
@@ -14894,7 +14894,7 @@
       "properties": {
         "ID": "21005",
         "code_dpt": "21",
-        "nom_dpt": "COTE-D'OR",
+        "nom_dpt": "CÔTE-D'OR",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "5",
         "code_reg": "27"
@@ -15170,7 +15170,7 @@
       "properties": {
         "ID": "22001",
         "code_dpt": "22",
-        "nom_dpt": "COTES-D'ARMOR",
+        "nom_dpt": "CÔTES-D'ARMOR",
         "nom_reg": "BRETAGNE",
         "num_circ": "1",
         "code_reg": "53"
@@ -15276,7 +15276,7 @@
       "properties": {
         "ID": "22002",
         "code_dpt": "22",
-        "nom_dpt": "COTES-D'ARMOR",
+        "nom_dpt": "CÔTES-D'ARMOR",
         "nom_reg": "BRETAGNE",
         "num_circ": "2",
         "code_reg": "53"
@@ -15486,7 +15486,7 @@
       "properties": {
         "ID": "22003",
         "code_dpt": "22",
-        "nom_dpt": "COTES-D'ARMOR",
+        "nom_dpt": "CÔTES-D'ARMOR",
         "nom_reg": "BRETAGNE",
         "num_circ": "3",
         "code_reg": "53"
@@ -15724,7 +15724,7 @@
       "properties": {
         "ID": "22004",
         "code_dpt": "22",
-        "nom_dpt": "COTES-D'ARMOR",
+        "nom_dpt": "CÔTES-D'ARMOR",
         "nom_reg": "BRETAGNE",
         "num_circ": "4",
         "code_reg": "53"
@@ -15950,7 +15950,7 @@
       "properties": {
         "ID": "22005",
         "code_dpt": "22",
-        "nom_dpt": "COTES-D'ARMOR",
+        "nom_dpt": "CÔTES-D'ARMOR",
         "nom_reg": "BRETAGNE",
         "num_circ": "5",
         "code_reg": "53"
@@ -17880,8 +17880,8 @@
       "properties": {
         "ID": "26001",
         "code_dpt": "26",
-        "nom_dpt": "DROME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "DRÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -17982,8 +17982,8 @@
       "properties": {
         "ID": "26002",
         "code_dpt": "26",
-        "nom_dpt": "DROME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "DRÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -18152,8 +18152,8 @@
       "properties": {
         "ID": "26003",
         "code_dpt": "26",
-        "nom_dpt": "DROME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "DRÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -18592,8 +18592,8 @@
       "properties": {
         "ID": "26004",
         "code_dpt": "26",
-        "nom_dpt": "DROME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "DRÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "4",
         "code_reg": "84"
       },
@@ -19324,8 +19324,8 @@
       "properties": {
         "ID": "34006",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "6",
         "code_reg": "76"
       },
@@ -19414,8 +19414,8 @@
       "properties": {
         "ID": "38002",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -20189,7 +20189,7 @@
         "ID": "83003",
         "code_dpt": "83",
         "nom_dpt": "VAR",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "3",
         "code_reg": "93"
       },
@@ -20521,7 +20521,7 @@
         "ID": "06001",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "1",
         "code_reg": "93"
       },
@@ -20559,7 +20559,7 @@
         "ID": "31002",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -20665,7 +20665,7 @@
         "ID": "31003",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "3",
         "code_reg": "76"
       },
@@ -20942,8 +20942,8 @@
       "properties": {
         "ID": "69006",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "6",
         "code_reg": "84"
       },
@@ -21224,8 +21224,8 @@
       "properties": {
         "ID": "13001",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "1",
         "code_reg": "93"
       },
@@ -21279,7 +21279,7 @@
         "ID": "30001",
         "code_dpt": "30",
         "nom_dpt": "GARD",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -21417,7 +21417,7 @@
         "ID": "30006",
         "code_dpt": "30",
         "nom_dpt": "GARD",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "6",
         "code_reg": "76"
       },
@@ -21555,7 +21555,7 @@
         "ID": "31004",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "4",
         "code_reg": "76"
       },
@@ -21732,8 +21732,8 @@
       "properties": {
         "ID": "69002",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -21774,8 +21774,8 @@
       "properties": {
         "ID": "69004",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "4",
         "code_reg": "84"
       },
@@ -21862,8 +21862,8 @@
       "properties": {
         "ID": "ZD001",
         "code_dpt": "ZD",
-        "nom_dpt": "LA REUNION",
-        "nom_reg": "LA REUNION",
+        "nom_dpt": "LA RÉUNION",
+        "nom_reg": "LA RÉUNION",
         "num_circ": "1",
         "code_reg": "04"
       },
@@ -22574,7 +22574,7 @@
       "properties": {
         "ID": "29001",
         "code_dpt": "29",
-        "nom_dpt": "FINISTERE",
+        "nom_dpt": "FINISTÈRE",
         "nom_reg": "BRETAGNE",
         "num_circ": "1",
         "code_reg": "53"
@@ -22680,7 +22680,7 @@
       "properties": {
         "ID": "29003",
         "code_dpt": "29",
-        "nom_dpt": "FINISTERE",
+        "nom_dpt": "FINISTÈRE",
         "nom_reg": "BRETAGNE",
         "num_circ": "3",
         "code_reg": "53"
@@ -22806,7 +22806,7 @@
       "properties": {
         "ID": "29004",
         "code_dpt": "29",
-        "nom_dpt": "FINISTERE",
+        "nom_dpt": "FINISTÈRE",
         "nom_reg": "BRETAGNE",
         "num_circ": "4",
         "code_reg": "53"
@@ -23000,7 +23000,7 @@
       "properties": {
         "ID": "29005",
         "code_dpt": "29",
-        "nom_dpt": "FINISTERE",
+        "nom_dpt": "FINISTÈRE",
         "nom_reg": "BRETAGNE",
         "num_circ": "5",
         "code_reg": "53"
@@ -23182,7 +23182,7 @@
       "properties": {
         "ID": "29006",
         "code_dpt": "29",
-        "nom_dpt": "FINISTERE",
+        "nom_dpt": "FINISTÈRE",
         "nom_reg": "BRETAGNE",
         "num_circ": "6",
         "code_reg": "53"
@@ -23470,7 +23470,7 @@
       "properties": {
         "ID": "29007",
         "code_dpt": "29",
-        "nom_dpt": "FINISTERE",
+        "nom_dpt": "FINISTÈRE",
         "nom_reg": "BRETAGNE",
         "num_circ": "7",
         "code_reg": "53"
@@ -23600,7 +23600,7 @@
       "properties": {
         "ID": "29008",
         "code_dpt": "29",
-        "nom_dpt": "FINISTERE",
+        "nom_dpt": "FINISTÈRE",
         "nom_reg": "BRETAGNE",
         "num_circ": "8",
         "code_reg": "53"
@@ -23739,7 +23739,7 @@
         "ID": "30002",
         "code_dpt": "30",
         "nom_dpt": "GARD",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -23869,7 +23869,7 @@
         "ID": "30003",
         "code_dpt": "30",
         "nom_dpt": "GARD",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "3",
         "code_reg": "76"
       },
@@ -24003,7 +24003,7 @@
         "ID": "30004",
         "code_dpt": "30",
         "nom_dpt": "GARD",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "4",
         "code_reg": "76"
       },
@@ -24221,7 +24221,7 @@
         "ID": "30005",
         "code_dpt": "30",
         "nom_dpt": "GARD",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "5",
         "code_reg": "76"
       },
@@ -24543,7 +24543,7 @@
         "ID": "31005",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "5",
         "code_reg": "76"
       },
@@ -24693,7 +24693,7 @@
         "ID": "31006",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "6",
         "code_reg": "76"
       },
@@ -24843,7 +24843,7 @@
         "ID": "31007",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "7",
         "code_reg": "76"
       },
@@ -25073,7 +25073,7 @@
         "ID": "31008",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "8",
         "code_reg": "76"
       },
@@ -25359,7 +25359,7 @@
         "ID": "31010",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "10",
         "code_reg": "76"
       },
@@ -25517,7 +25517,7 @@
         "ID": "32001",
         "code_dpt": "32",
         "nom_dpt": "GERS",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -25815,7 +25815,7 @@
         "ID": "32002",
         "code_dpt": "32",
         "nom_dpt": "GERS",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -27208,8 +27208,8 @@
       "properties": {
         "ID": "34004",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "4",
         "code_reg": "76"
       },
@@ -27450,8 +27450,8 @@
       "properties": {
         "ID": "34005",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "5",
         "code_reg": "76"
       },
@@ -27716,8 +27716,8 @@
       "properties": {
         "ID": "34007",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "7",
         "code_reg": "76"
       },
@@ -30220,8 +30220,8 @@
       "properties": {
         "ID": "38004",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "4",
         "code_reg": "84"
       },
@@ -30454,8 +30454,8 @@
       "properties": {
         "ID": "38005",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "5",
         "code_reg": "84"
       },
@@ -30664,8 +30664,8 @@
       "properties": {
         "ID": "38006",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "6",
         "code_reg": "84"
       },
@@ -30810,8 +30810,8 @@
       "properties": {
         "ID": "38007",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "7",
         "code_reg": "84"
       },
@@ -31008,8 +31008,8 @@
       "properties": {
         "ID": "38008",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "8",
         "code_reg": "84"
       },
@@ -31122,8 +31122,8 @@
       "properties": {
         "ID": "38009",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "9",
         "code_reg": "84"
       },
@@ -31280,8 +31280,8 @@
       "properties": {
         "ID": "38010",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "10",
         "code_reg": "84"
       },
@@ -33489,7 +33489,7 @@
         "ID": "42003",
         "code_dpt": "42",
         "nom_dpt": "LOIRE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -33595,7 +33595,7 @@
         "ID": "42004",
         "code_dpt": "42",
         "nom_dpt": "LOIRE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "4",
         "code_reg": "84"
       },
@@ -33833,7 +33833,7 @@
         "ID": "42005",
         "code_dpt": "42",
         "nom_dpt": "LOIRE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "5",
         "code_reg": "84"
       },
@@ -34043,7 +34043,7 @@
         "ID": "42006",
         "code_dpt": "42",
         "nom_dpt": "LOIRE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "6",
         "code_reg": "84"
       },
@@ -34233,7 +34233,7 @@
         "ID": "43001",
         "code_dpt": "43",
         "nom_dpt": "HAUTE-LOIRE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -34443,7 +34443,7 @@
         "ID": "43002",
         "code_dpt": "43",
         "nom_dpt": "HAUTE-LOIRE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -36157,7 +36157,7 @@
         "ID": "46001",
         "code_dpt": "46",
         "nom_dpt": "LOT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -36383,7 +36383,7 @@
         "ID": "46002",
         "code_dpt": "46",
         "nom_dpt": "LOT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -37286,8 +37286,8 @@
       "properties": {
         "ID": "48001",
         "code_dpt": "48",
-        "nom_dpt": "LOZERE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "LOZÈRE",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -44076,7 +44076,7 @@
       "properties": {
         "ID": "58001",
         "code_dpt": "58",
-        "nom_dpt": "NIEVRE",
+        "nom_dpt": "NIÈVRE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "1",
         "code_reg": "27"
@@ -44338,7 +44338,7 @@
       "properties": {
         "ID": "58002",
         "code_dpt": "58",
-        "nom_dpt": "NIEVRE",
+        "nom_dpt": "NIÈVRE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "2",
         "code_reg": "27"
@@ -48176,8 +48176,8 @@
       "properties": {
         "ID": "63002",
         "code_dpt": "63",
-        "nom_dpt": "PUY-DE-DOME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "PUY-DE-DÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -48438,8 +48438,8 @@
       "properties": {
         "ID": "63003",
         "code_dpt": "63",
-        "nom_dpt": "PUY-DE-DOME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "PUY-DE-DÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -48636,8 +48636,8 @@
       "properties": {
         "ID": "63004",
         "code_dpt": "63",
-        "nom_dpt": "PUY-DE-DOME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "PUY-DE-DÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "4",
         "code_reg": "84"
       },
@@ -48810,8 +48810,8 @@
       "properties": {
         "ID": "63005",
         "code_dpt": "63",
-        "nom_dpt": "PUY-DE-DOME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "PUY-DE-DÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "5",
         "code_reg": "84"
       },
@@ -49056,7 +49056,7 @@
       "properties": {
         "ID": "64002",
         "code_dpt": "64",
-        "nom_dpt": "PYRENEES-ATLANTIQUES",
+        "nom_dpt": "PYRÉNÉES-ATLANTIQUES",
         "nom_reg": "AQUITAINE-LIMOUSIN-POITOU-CHARENTES",
         "num_circ": "2",
         "code_reg": "75"
@@ -49272,7 +49272,7 @@
       "properties": {
         "ID": "64003",
         "code_dpt": "64",
-        "nom_dpt": "PYRENEES-ATLANTIQUES",
+        "nom_dpt": "PYRÉNÉES-ATLANTIQUES",
         "nom_reg": "AQUITAINE-LIMOUSIN-POITOU-CHARENTES",
         "num_circ": "3",
         "code_reg": "75"
@@ -49546,7 +49546,7 @@
       "properties": {
         "ID": "64004",
         "code_dpt": "64",
-        "nom_dpt": "PYRENEES-ATLANTIQUES",
+        "nom_dpt": "PYRÉNÉES-ATLANTIQUES",
         "nom_reg": "AQUITAINE-LIMOUSIN-POITOU-CHARENTES",
         "num_circ": "4",
         "code_reg": "75"
@@ -49836,7 +49836,7 @@
       "properties": {
         "ID": "64005",
         "code_dpt": "64",
-        "nom_dpt": "PYRENEES-ATLANTIQUES",
+        "nom_dpt": "PYRÉNÉES-ATLANTIQUES",
         "nom_reg": "AQUITAINE-LIMOUSIN-POITOU-CHARENTES",
         "num_circ": "5",
         "code_reg": "75"
@@ -49954,7 +49954,7 @@
       "properties": {
         "ID": "64006",
         "code_dpt": "64",
-        "nom_dpt": "PYRENEES-ATLANTIQUES",
+        "nom_dpt": "PYRÉNÉES-ATLANTIQUES",
         "nom_reg": "AQUITAINE-LIMOUSIN-POITOU-CHARENTES",
         "num_circ": "6",
         "code_reg": "75"
@@ -50068,8 +50068,8 @@
       "properties": {
         "ID": "65001",
         "code_dpt": "65",
-        "nom_dpt": "HAUTES-PYRENEES",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HAUTES-PYRÉNÉES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -50306,8 +50306,8 @@
       "properties": {
         "ID": "65002",
         "code_dpt": "65",
-        "nom_dpt": "HAUTES-PYRENEES",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HAUTES-PYRÉNÉES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -50662,8 +50662,8 @@
       "properties": {
         "ID": "66002",
         "code_dpt": "66",
-        "nom_dpt": "PYRENEES-ORIENTALES",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "PYRÉNÉES-ORIENTALES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -50832,8 +50832,8 @@
       "properties": {
         "ID": "66003",
         "code_dpt": "66",
-        "nom_dpt": "PYRENEES-ORIENTALES",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "PYRÉNÉES-ORIENTALES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "3",
         "code_reg": "76"
       },
@@ -51074,8 +51074,8 @@
       "properties": {
         "ID": "66004",
         "code_dpt": "66",
-        "nom_dpt": "PYRENEES-ORIENTALES",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "PYRÉNÉES-ORIENTALES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "4",
         "code_reg": "76"
       },
@@ -52446,8 +52446,8 @@
       "properties": {
         "ID": "69008",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "8",
         "code_reg": "84"
       },
@@ -52612,8 +52612,8 @@
       "properties": {
         "ID": "69009",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "9",
         "code_reg": "84"
       },
@@ -52782,8 +52782,8 @@
       "properties": {
         "ID": "69010",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "10",
         "code_reg": "84"
       },
@@ -52900,8 +52900,8 @@
       "properties": {
         "ID": "69011",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "11",
         "code_reg": "84"
       },
@@ -53022,8 +53022,8 @@
       "properties": {
         "ID": "69012",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "12",
         "code_reg": "84"
       },
@@ -53088,8 +53088,8 @@
       "properties": {
         "ID": "69013",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "13",
         "code_reg": "84"
       },
@@ -53158,7 +53158,7 @@
       "properties": {
         "ID": "70001",
         "code_dpt": "70",
-        "nom_dpt": "HAUTE-SAONE",
+        "nom_dpt": "HAUTE-SAÔNE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "1",
         "code_reg": "27"
@@ -53428,7 +53428,7 @@
       "properties": {
         "ID": "70002",
         "code_dpt": "70",
-        "nom_dpt": "HAUTE-SAONE",
+        "nom_dpt": "HAUTE-SAÔNE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "2",
         "code_reg": "27"
@@ -53650,7 +53650,7 @@
       "properties": {
         "ID": "71001",
         "code_dpt": "71",
-        "nom_dpt": "SAONE-ET-LOIRE",
+        "nom_dpt": "SAÔNE-ET-LOIRE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "1",
         "code_reg": "27"
@@ -53812,8 +53812,8 @@
       "properties": {
         "ID": "38003",
         "code_dpt": "38",
-        "nom_dpt": "ISERE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "ISÈRE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -54198,8 +54198,8 @@
       "properties": {
         "ID": "63001",
         "code_dpt": "63",
-        "nom_dpt": "PUY-DE-DOME",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "PUY-DE-DÔME",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -54268,8 +54268,8 @@
       "properties": {
         "ID": "66001",
         "code_dpt": "66",
-        "nom_dpt": "PYRENEES-ORIENTALES",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "PYRÉNÉES-ORIENTALES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -54458,8 +54458,8 @@
       "properties": {
         "ID": "69014",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "14",
         "code_reg": "84"
       },
@@ -54579,7 +54579,7 @@
         "ID": "06003",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "3",
         "code_reg": "93"
       },
@@ -54629,7 +54629,7 @@
         "ID": "31001",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -55098,8 +55098,8 @@
       "properties": {
         "ID": "69001",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -55156,8 +55156,8 @@
       "properties": {
         "ID": "69003",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -55194,7 +55194,7 @@
       "properties": {
         "ID": "71002",
         "code_dpt": "71",
-        "nom_dpt": "SAONE-ET-LOIRE",
+        "nom_dpt": "SAÔNE-ET-LOIRE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "2",
         "code_reg": "27"
@@ -55472,7 +55472,7 @@
       "properties": {
         "ID": "71003",
         "code_dpt": "71",
-        "nom_dpt": "SAONE-ET-LOIRE",
+        "nom_dpt": "SAÔNE-ET-LOIRE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "3",
         "code_reg": "27"
@@ -55758,7 +55758,7 @@
       "properties": {
         "ID": "71004",
         "code_dpt": "71",
-        "nom_dpt": "SAONE-ET-LOIRE",
+        "nom_dpt": "SAÔNE-ET-LOIRE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "4",
         "code_reg": "27"
@@ -56000,7 +56000,7 @@
       "properties": {
         "ID": "71005",
         "code_dpt": "71",
-        "nom_dpt": "SAONE-ET-LOIRE",
+        "nom_dpt": "SAÔNE-ET-LOIRE",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "5",
         "code_reg": "27"
@@ -57069,7 +57069,7 @@
         "ID": "73001",
         "code_dpt": "73",
         "nom_dpt": "SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -57215,7 +57215,7 @@
         "ID": "73002",
         "code_dpt": "73",
         "nom_dpt": "SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -57445,7 +57445,7 @@
         "ID": "73003",
         "code_dpt": "73",
         "nom_dpt": "SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -57743,7 +57743,7 @@
         "ID": "73004",
         "code_dpt": "73",
         "nom_dpt": "SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "4",
         "code_reg": "84"
       },
@@ -57889,7 +57889,7 @@
         "ID": "74001",
         "code_dpt": "74",
         "nom_dpt": "HAUTE-SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -58023,7 +58023,7 @@
         "ID": "74002",
         "code_dpt": "74",
         "nom_dpt": "HAUTE-SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -58173,7 +58173,7 @@
         "ID": "74003",
         "code_dpt": "74",
         "nom_dpt": "HAUTE-SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "3",
         "code_reg": "84"
       },
@@ -58323,7 +58323,7 @@
         "ID": "74004",
         "code_dpt": "74",
         "nom_dpt": "HAUTE-SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "4",
         "code_reg": "84"
       },
@@ -58465,7 +58465,7 @@
         "ID": "74005",
         "code_dpt": "74",
         "nom_dpt": "HAUTE-SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "5",
         "code_reg": "84"
       },
@@ -58607,7 +58607,7 @@
         "ID": "74006",
         "code_dpt": "74",
         "nom_dpt": "HAUTE-SAVOIE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "6",
         "code_reg": "84"
       },
@@ -63343,7 +63343,7 @@
         "ID": "81001",
         "code_dpt": "81",
         "nom_dpt": "TARN",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -63577,7 +63577,7 @@
         "ID": "81002",
         "code_dpt": "81",
         "nom_dpt": "TARN",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -63787,7 +63787,7 @@
         "ID": "81003",
         "code_dpt": "81",
         "nom_dpt": "TARN",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "3",
         "code_reg": "76"
       },
@@ -64041,7 +64041,7 @@
         "ID": "82001",
         "code_dpt": "82",
         "nom_dpt": "TARN-ET-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -64251,7 +64251,7 @@
         "ID": "82002",
         "code_dpt": "82",
         "nom_dpt": "TARN-ET-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -64473,7 +64473,7 @@
         "ID": "83004",
         "code_dpt": "83",
         "nom_dpt": "VAR",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "4",
         "code_reg": "93"
       },
@@ -64615,7 +64615,7 @@
         "ID": "83005",
         "code_dpt": "83",
         "nom_dpt": "VAR",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "5",
         "code_reg": "93"
       },
@@ -64705,7 +64705,7 @@
         "ID": "83006",
         "code_dpt": "83",
         "nom_dpt": "VAR",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "6",
         "code_reg": "93"
       },
@@ -64875,7 +64875,7 @@
         "ID": "83008",
         "code_dpt": "83",
         "nom_dpt": "VAR",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "8",
         "code_reg": "93"
       },
@@ -65145,7 +65145,7 @@
         "ID": "84002",
         "code_dpt": "84",
         "nom_dpt": "VAUCLUSE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "2",
         "code_reg": "93"
       },
@@ -65255,7 +65255,7 @@
         "ID": "84004",
         "code_dpt": "84",
         "nom_dpt": "VAUCLUSE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "4",
         "code_reg": "93"
       },
@@ -65499,7 +65499,7 @@
         "ID": "84005",
         "code_dpt": "84",
         "nom_dpt": "VAUCLUSE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "5",
         "code_reg": "93"
       },
@@ -65728,7 +65728,7 @@
       "properties": {
         "ID": "85001",
         "code_dpt": "85",
-        "nom_dpt": "VENDEE",
+        "nom_dpt": "VENDÉE",
         "nom_reg": "PAYS DE LA LOIRE",
         "num_circ": "1",
         "code_reg": "52"
@@ -65954,7 +65954,7 @@
       "properties": {
         "ID": "85003",
         "code_dpt": "85",
-        "nom_dpt": "VENDEE",
+        "nom_dpt": "VENDÉE",
         "nom_reg": "PAYS DE LA LOIRE",
         "num_circ": "3",
         "code_reg": "52"
@@ -66178,7 +66178,7 @@
       "properties": {
         "ID": "85004",
         "code_dpt": "85",
-        "nom_dpt": "VENDEE",
+        "nom_dpt": "VENDÉE",
         "nom_reg": "PAYS DE LA LOIRE",
         "num_circ": "4",
         "code_reg": "52"
@@ -66356,7 +66356,7 @@
       "properties": {
         "ID": "85005",
         "code_dpt": "85",
-        "nom_dpt": "VENDEE",
+        "nom_dpt": "VENDÉE",
         "nom_reg": "PAYS DE LA LOIRE",
         "num_circ": "5",
         "code_reg": "52"
@@ -72916,7 +72916,7 @@
       "properties": {
         "ID": "29002",
         "code_dpt": "29",
-        "nom_dpt": "FINISTERE",
+        "nom_dpt": "FINISTÈRE",
         "nom_reg": "BRETAGNE",
         "num_circ": "2",
         "code_reg": "53"
@@ -73277,7 +73277,7 @@
         "ID": "06009",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "9",
         "code_reg": "93"
       },
@@ -73334,8 +73334,8 @@
       "properties": {
         "ID": "13002",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "2",
         "code_reg": "93"
       },
@@ -73811,7 +73811,7 @@
         "ID": "31009",
         "code_dpt": "31",
         "nom_dpt": "HAUTE-GARONNE",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "9",
         "code_reg": "76"
       },
@@ -73896,8 +73896,8 @@
       "properties": {
         "ID": "34001",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "1",
         "code_reg": "76"
       },
@@ -73966,8 +73966,8 @@
       "properties": {
         "ID": "34002",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "2",
         "code_reg": "76"
       },
@@ -74004,8 +74004,8 @@
       "properties": {
         "ID": "34003",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "3",
         "code_reg": "76"
       },
@@ -74090,8 +74090,8 @@
       "properties": {
         "ID": "34008",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "8",
         "code_reg": "76"
       },
@@ -74204,8 +74204,8 @@
       "properties": {
         "ID": "34009",
         "code_dpt": "34",
-        "nom_dpt": "HERAULT",
-        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRENEES",
+        "nom_dpt": "HÉRAULT",
+        "nom_reg": "LANGUEDOC-ROUSSILLON-MIDI-PYRÉNÉES",
         "num_circ": "9",
         "code_reg": "76"
       },
@@ -75861,7 +75861,7 @@
         "ID": "83002",
         "code_dpt": "83",
         "nom_dpt": "VAR",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "2",
         "code_reg": "93"
       },
@@ -76842,8 +76842,8 @@
       "properties": {
         "ID": "ZD002",
         "code_dpt": "ZD",
-        "nom_dpt": "LA REUNION",
-        "nom_reg": "LA REUNION",
+        "nom_dpt": "LA RÉUNION",
+        "nom_reg": "LA RÉUNION",
         "num_circ": "2",
         "code_reg": "04"
       },
@@ -76932,8 +76932,8 @@
       "properties": {
         "ID": "ZD005",
         "code_dpt": "ZD",
-        "nom_dpt": "LA REUNION",
-        "nom_reg": "LA REUNION",
+        "nom_dpt": "LA RÉUNION",
+        "nom_reg": "LA RÉUNION",
         "num_circ": "5",
         "code_reg": "04"
       },
@@ -77082,8 +77082,8 @@
       "properties": {
         "ID": "ZD006",
         "code_dpt": "ZD",
-        "nom_dpt": "LA REUNION",
-        "nom_reg": "LA REUNION",
+        "nom_dpt": "LA RÉUNION",
+        "nom_reg": "LA RÉUNION",
         "num_circ": "6",
         "code_reg": "04"
       },
@@ -77148,8 +77148,8 @@
       "properties": {
         "ID": "ZD007",
         "code_dpt": "ZD",
-        "nom_dpt": "LA REUNION",
-        "nom_reg": "LA REUNION",
+        "nom_dpt": "LA RÉUNION",
+        "nom_reg": "LA RÉUNION",
         "num_circ": "7",
         "code_reg": "04"
       },
@@ -77413,7 +77413,7 @@
         "ID": "06008",
         "code_dpt": "06",
         "nom_dpt": "ALPES-MARITIMES",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "8",
         "code_reg": "93"
       },
@@ -77648,8 +77648,8 @@
       "properties": {
         "ID": "13003",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "3",
         "code_reg": "93"
       },
@@ -77698,8 +77698,8 @@
       "properties": {
         "ID": "13004",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "4",
         "code_reg": "93"
       },
@@ -77752,8 +77752,8 @@
       "properties": {
         "ID": "13005",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "5",
         "code_reg": "93"
       },
@@ -77810,8 +77810,8 @@
       "properties": {
         "ID": "13006",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "6",
         "code_reg": "93"
       },
@@ -77868,8 +77868,8 @@
       "properties": {
         "ID": "13007",
         "code_dpt": "13",
-        "nom_dpt": "BOUCHES-DU-RHONE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_dpt": "BOUCHES-DU-RHÔNE",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "7",
         "code_reg": "93"
       },
@@ -77922,7 +77922,7 @@
       "properties": {
         "ID": "21001",
         "code_dpt": "21",
-        "nom_dpt": "COTE-D'OR",
+        "nom_dpt": "CÔTE-D'OR",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "1",
         "code_reg": "27"
@@ -78000,7 +78000,7 @@
       "properties": {
         "ID": "21003",
         "code_dpt": "21",
-        "nom_dpt": "COTE-D'OR",
+        "nom_dpt": "CÔTE-D'OR",
         "nom_reg": "BOURGOGNE-FRANCHE-COMTE",
         "num_circ": "3",
         "code_reg": "27"
@@ -78685,7 +78685,7 @@
         "ID": "42001",
         "code_dpt": "42",
         "nom_dpt": "LOIRE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "1",
         "code_reg": "84"
       },
@@ -78751,7 +78751,7 @@
         "ID": "42002",
         "code_dpt": "42",
         "nom_dpt": "LOIRE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "2",
         "code_reg": "84"
       },
@@ -79876,7 +79876,7 @@
       "properties": {
         "ID": "64001",
         "code_dpt": "64",
-        "nom_dpt": "PYRENEES-ATLANTIQUES",
+        "nom_dpt": "PYRÉNÉES-ATLANTIQUES",
         "nom_reg": "AQUITAINE-LIMOUSIN-POITOU-CHARENTES",
         "num_circ": "1",
         "code_reg": "75"
@@ -79978,8 +79978,8 @@
       "properties": {
         "ID": "69005",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "5",
         "code_reg": "84"
       },
@@ -80052,8 +80052,8 @@
       "properties": {
         "ID": "69007",
         "code_dpt": "69",
-        "nom_dpt": "RHONE",
-        "nom_reg": "AUVERGNE-RHONE-ALPES",
+        "nom_dpt": "RHÔNE",
+        "nom_reg": "AUVERGNE-RHÔNE-ALPES",
         "num_circ": "7",
         "code_reg": "84"
       },
@@ -81249,7 +81249,7 @@
         "ID": "83001",
         "code_dpt": "83",
         "nom_dpt": "VAR",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "1",
         "code_reg": "93"
       },
@@ -81295,7 +81295,7 @@
         "ID": "83007",
         "code_dpt": "83",
         "nom_dpt": "VAR",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "7",
         "code_reg": "93"
       },
@@ -81357,7 +81357,7 @@
         "ID": "84001",
         "code_dpt": "84",
         "nom_dpt": "VAUCLUSE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "1",
         "code_reg": "93"
       },
@@ -81411,7 +81411,7 @@
         "ID": "84003",
         "code_dpt": "84",
         "nom_dpt": "VAUCLUSE",
-        "nom_reg": "PROVENCE-ALPES-COTE D'AZUR",
+        "nom_reg": "PROVENCE-ALPES-CÔTE D'AZUR",
         "num_circ": "3",
         "code_reg": "93"
       },
@@ -81536,7 +81536,7 @@
       "properties": {
         "ID": "85002",
         "code_dpt": "85",
-        "nom_dpt": "VENDEE",
+        "nom_dpt": "VENDÉE",
         "nom_reg": "PAYS DE LA LOIRE",
         "num_circ": "2",
         "code_reg": "52"
@@ -83316,8 +83316,8 @@
       "properties": {
         "ID": "ZD004",
         "code_dpt": "ZD",
-        "nom_dpt": "LA REUNION",
-        "nom_reg": "LA REUNION",
+        "nom_dpt": "LA RÉUNION",
+        "nom_reg": "LA RÉUNION",
         "num_circ": "4",
         "code_reg": "04"
       },
@@ -83566,8 +83566,8 @@
       "properties": {
         "ID": "ZD003",
         "code_dpt": "ZD",
-        "nom_dpt": "LA REUNION",
-        "nom_reg": "LA REUNION",
+        "nom_dpt": "LA RÉUNION",
+        "nom_reg": "LA RÉUNION",
         "num_circ": "3",
         "code_reg": "04"
       },
@@ -83742,7 +83742,7 @@
       "properties": {
         "ID": "ZN001",
         "code_dpt": "ZN",
-        "nom_dpt": "NOUVELLE-CALEDONIE",
+        "nom_dpt": "NOUVELLE-CALÉDONIE",
         "nom_reg": "-",
         "num_circ": "1",
         "code_reg": "-"
@@ -84430,7 +84430,7 @@
       "properties": {
         "ID": "ZN002",
         "code_dpt": "ZN",
-        "nom_dpt": "NOUVELLE-CALEDONIE",
+        "nom_dpt": "NOUVELLE-CALÉDONIE",
         "nom_reg": "-",
         "num_circ": "2",
         "code_reg": "-"
@@ -86102,7 +86102,7 @@
       "properties": {
         "ID": "ZX001",
         "code_dpt": "ZX",
-        "nom_dpt": "SAINT-MARTIN\/SAINT-BARTHELEMY",
+        "nom_dpt": "SAINT-MARTIN\/SAINT-BARTHÉLEMY",
         "nom_reg": "-",
         "num_circ": "1",
         "code_reg": "-"
@@ -86330,7 +86330,7 @@
       "properties": {
         "ID": "ZP001",
         "code_dpt": "ZP",
-        "nom_dpt": "POLYNESIE-FRANCAISE",
+        "nom_dpt": "POLYNÉSIE-FRANCAISE",
         "nom_reg": "-",
         "num_circ": "1",
         "code_reg": "-"
@@ -94742,7 +94742,7 @@
       "properties": {
         "ID": "ZP002",
         "code_dpt": "ZP",
-        "nom_dpt": "POLYNESIE-FRANCAISE",
+        "nom_dpt": "POLYNÉSIE-FRANCAISE",
         "nom_reg": "-",
         "num_circ": "2",
         "code_reg": "-"
@@ -95834,7 +95834,7 @@
       "properties": {
         "ID": "ZP003",
         "code_dpt": "ZP",
-        "nom_dpt": "POLYNESIE-FRANCAISE",
+        "nom_dpt": "POLYNÉSIE-FRANCAISE",
         "nom_reg": "-",
         "num_circ": "3",
         "code_reg": "-"
