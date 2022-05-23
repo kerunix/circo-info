@@ -52,10 +52,11 @@ export default defineEventHandler(async (event) => {
     }
   }
 
-  if (res.circonscription.code_dpt && res.circonscription.num_circ) {
-    const deputy = deputysDataset.find(item => item.depute?.num_deptmt === res.circonscription.code_dpt && item.depute?.num_circo === parseInt(res.circonscription.num_circ))
-
+  if (res.circonscription.nom_dpt && res.circonscription.num_circ) {
     const dept = res.circonscription.nom_dpt.toLowerCase()
+
+    const deputy = deputysDataset.find(item => item.depute.nom_circo.toLowerCase() === dept && item.depute?.num_circo === parseInt(res.circonscription.num_circ))
+
     let num_circ = res.circonscription.num_circ
 
     if (num_circ.length === 1) {
