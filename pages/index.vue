@@ -69,12 +69,13 @@
       </div>
     </template>
   </div>
-  <SearchResults v-if="hasResults || error?.type === 'circo'" :deputy="deputy" :error="error" :circonscription="circonscription"/>
+  <SearchResults v-if="hasResults || error?.type === 'circo'" :deputy="deputy" :error="error" :circonscription="circonscription" :candidates="candidates"/>
 </div>
 </template>
 
 <script setup lang="ts">
-  import { ExclamationIcon } from '@heroicons/vue/solid'
+  import { StringLiteral } from '@babel/types';
+import { ExclamationIcon } from '@heroicons/vue/solid'
 
   const form = reactive({
     address: null
@@ -83,6 +84,7 @@
   const responses = ref<Record<string, any>[]>([])
   const deputy = ref<Record<string, any> | null>(null)
   const circonscription = ref<Record<string, any> | null>(null)
+  const candidates = ref<Record<string, any>[]>([])
   const error = ref<{ title: string, message: string, type: 'geocoding' | 'circo' } | null>(null)
   const hasResults = ref(false)
   const hasSearched = ref(false)
@@ -115,9 +117,10 @@
     try {
       const addressPoint = Object.values(responses.value[index].geometry)
       const payload = { coords: addressPoint }
-      const { circonscription: circo, deputy: { depute } } = await $fetch('/api/circo', { method: 'post', body: payload})
+      const { circonscription: circo, deputy: { depute }, candidates: casting } = await $fetch('/api/circo', { method: 'post', body: payload})
       circonscription.value = circo
       deputy.value = depute
+      candidates.value = casting
       hasResults.value = true
     } catch (err) {
       error.value = {
@@ -132,6 +135,7 @@
     responses.value = []
     deputy.value = null
     circonscription.value = null
+    candidates.value = null
     error.value = null
     hasResults.value = false
     hasSearched.value = false
